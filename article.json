@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "a001",
+    "name": "Apple IPhone 12 (128Go) Blue",
+    "image": "",
+    "description": "Connectivité",
+    "detail": "iOS et son lot de nouveautés, telles que les widgets repensés sur l’écran d’accueil, la toute nouvelle Bibliothèque d’apps et les extraits d’app",
+    "prix": 150
+  },
+  {
+    "_id": "a002",
+    "name": "Apple IPhone 6 Plus ",
+    "description": "Connectivité",
+    "detail": "Connectivité : Volte, Wifi AC, NFC, Bluetooth 4.0, 4G LTEp",
+    "prix": 150
+  },
+  {
+    "_id": "id003",
+    "name": "Apple IPhone 7 Plus - 5.5 ",
+    "description": "Connectivité",
+    "text": "Caméra arrière: Double appareil photo grand angle ",
+    "detail": "Taille (Longueur x Largeur x Hauteur cm): 15.09 x 7.57 x 0.83",
+    "prix": 150
+  },
+  {
+    "_id": "id004",
+    "name": "Apple IPhone Xs – 5.8 ",
+    "description": "Connectivité",
+    "text": "Caméra arrière: Double appareil photo grand angle ",
+    "detail": "Caméra arrière: Double appareil photo grand angle et téléobjectif 12 Mpx,Ouverture ƒ/1,8",
+    "prix": 150
+  },
+  {
+    "_id": "id005",
+    "name": "Apple IPhone 13 (128 Go) Purple ",
+    "description": "Connectivité",
+    "text": "Caméra arrière: Double appareil photo grand angle ",
+    "detail": "Appareil photo (dorsal) : 12 Mégapixels ",
+    "prix": 150
+  },
+  {
+    "_id": "id006",
+    "name": "Samsung Fourot Rabat GALAXY SAMSUNG A03 ",
+    "description": "Connectivité",
+    "text": "Caméra arrière: Double appareil photo grand angle ",
+    "detail": "Ces fourreaux à rabat  Protègent complètement votre Téléphone contre les chocs et égratignures  de tous les jours,Il comprend une coque intérieure  pour une protection optimale au quotidien.",
+    "prix": 750
+  },
+  {
+    "_id": "id007",
+    "name": "Samsung Galaxy A03  ",
+    "description": "Connectivité",
+    "text": "Caméra arrière: Double appareil photo grand angle ",
+    "detail": "Caméra arrière: Double appareil photo grand angle et téléobjectif 12 Mpx,Ouverture ƒ/1,8",
+    "prix": 550
+  },
+  {
+    "_id": "id008",
+    "name": "Samsung Galaxy A03  ",
+    "description": "Connectivité",
+    "text": "Caméra arrière: Double appareil photo grand angle ",
+    "detail": "Caméra arrière: Double appareil photo grand angle et téléobjectif 12 Mpx,Ouverture ƒ/1,8",
+    "prix": 650
+  }
+]
