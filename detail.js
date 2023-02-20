@@ -11,8 +11,8 @@ async function tablette() {
 
   let doc = response.find((element) => element._id === documentId);
   console.log(doc);
-  for (let i = 0; i < doc.length; i++) {
-    let card = `
+  
+  let card = `
     <div class="item1">
     <div class="item1_box">
       <img src="image/6e38525473499975faea29440606a5f3.jpeg" alt="" />
@@ -21,16 +21,14 @@ async function tablette() {
       <p>macbook</p>
       <p>Description</p>
       <p>
-        ${doc[i].description}
+        ${doc.description}
       </p>
-      <p>${doc[i].prix}</p>
+      <p>${doc.prix}</p>
   
       <button>ADD CART</button>
     </div>
   </div>`;
-    let container = document.querySelector(".container");
-    container.innerHTML += card;
-  }
-
+  let container = document.querySelector(".container");
+  container.innerHTML = card;
 }
 tablette();
