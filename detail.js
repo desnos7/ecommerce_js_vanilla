@@ -10,25 +10,57 @@ async function tablette() {
   response = await response.json();
 
   let doc = response.find((element) => element._id === documentId);
-  console.log(doc);
-  
+
   let card = `
     <div class="item1">
     <div class="item1_box">
-      <img src="image/6e38525473499975faea29440606a5f3.jpeg" alt="" />
+      <img src="${doc.image}" alt="" />
     </div>
     <div class="item1_box2">
-      <p>macbook</p>
+      <p>${doc.name}</p>
       <p>Description</p>
       <p>
         ${doc.description}
       </p>
-      <p>${doc.prix}</p>
+      <p>${doc.prix}$</p>
   
-      <button>ADD CART</button>
+      <button >ADD CART</button>
     </div>
   </div>`;
   let container = document.querySelector(".container");
   container.innerHTML = card;
+  let button = document.querySelector("button");
+  button.addEventListener("click", (e) => {
+    e.preventDefault;
+    let storageDonne = {
+      name: doc.name,
+      id_produit: doc._id,
+      prix_produit: doc.prix,
+    };
+    console.log(storageDonne);
+
+    // recuperation variable storage
+
+    let produitStorage = JSON.parse(localStorage.getItem("produit"));
+
+    console.log(produitStorage);
+
+    if (produitStorage) {
+      produitStorage.push(storageDonne);
+      produitSt = localStorage.setItem(
+        "produit",
+        JSON.stringify(produitStorage)
+      );
+      console.log(produitStorage);
+    } else {
+      produitStorage = [];
+      produitStorage.push(storageDonne);
+      produitSt = localStorage.setItem(
+        "produit",
+        JSON.stringify(produitStorage)
+      );
+      console.log(produitStorage);
+    }
+  });
 }
 tablette();
