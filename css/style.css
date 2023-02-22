@@ -134,7 +134,7 @@ h1 {
   background-color: rgba(217, 217, 217, 1);
 }
 .card > img {
-  width: 100%;
+  width: 50%;
   padding-bottom: 5px;
 }
 button {
@@ -160,7 +160,7 @@ button:hover {
   width: 100%;
 }
 .container3_item {
-  background-image: url(image/campaign-cover-countdown.jpeg);
+  background-image: url(../image/campaign-cover-countdown.jpeg);
   background-size: cover;
   object-fit: cover;
   width: 50%;
