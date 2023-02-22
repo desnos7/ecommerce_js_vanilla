@@ -1,65 +1,72 @@
 [
   {
     "_id": "a001",
-    "name": "Apple IPhone 12 (128Go) Blue",
-    "image": "image/photo-1604399852419-f67ee7d5f2ef-removebg-preview.png",
-    "description": "Connectivité",
+    "name": "Apple IPhone 13 (128Go) Blue",
+    "image": "image/iphone13-removebg-preview.png",
+    "description": "Modèle: Iphone 13Pro",
     "detail": "iOS et son lot de nouveautés, telles que les widgets repensés sur l’écran d’accueil, la toute nouvelle Bibliothèque d’apps et les extraits d’app",
-    "prix": 150
+    "prix": 550
   },
   {
     "_id": "a002",
-    "name": "Apple IPhone 6 Plus ",
-    "description": "Connectivité",
-    "detail": "Connectivité : Volte, Wifi AC, NFC, Bluetooth 4.0, 4G LTEp",
-    "prix": 150
+    "name": "Apple iphone12 Plus ",
+    "image": "image/iphone12-removebg-preview.png",
+    "description": "Écran Super Retina XDR 6,7 pouces",
+    "detail": "Système photo pro avec ultra grand‐angle, grand‐angle et téléobjectif 12 Mpx ; zoom optique d’amplitude 5x ; mode Nuit, Deep Fusion, Smart HDR 3, Apple ProRAW et enregistrement vidéo 4K HDR en Dolby Vision",
+    "prix": 450
   },
   {
     "_id": "id003",
-    "name": "Apple IPhone 7 Plus - 5.5 ",
-    "description": "Connectivité",
+    "name": "Nasco Slim TV LED 32- HD- ",
+    "image": "image/Nasco-removebg-preview.png",
+    "description": "Regardez des films à partir de votre stockage USB",
     "text": "Caméra arrière: Double appareil photo grand angle ",
-    "detail": "Taille (Longueur x Largeur x Hauteur cm): 15.09 x 7.57 x 0.83",
+    "detail": "Grâce aux entrées High Definition Multimedia Interface (HDMI), le téléviseur NASCO TV 32’’ HD transformera votre salon en un véritable centre de divertissement multimédia. En effet, la technologie HDMI permet une transmission à haute vitesse de données numériques à haute définition directement sur votre téléviseur depuis une large variété d’appareils.",
     "prix": 150
   },
   {
     "_id": "id004",
-    "name": "Apple IPhone Xs – 5.8 ",
-    "description": "Connectivité",
+    "name": "Oraimo Ecouteurs Sans Fil - Riff - Plus ",
+    "image": "image/ecouteur-removebg-preview.png",
+    "description": "Petit Pour Le Confort Véritables",
     "text": "Caméra arrière: Double appareil photo grand angle ",
-    "detail": "Caméra arrière: Double appareil photo grand angle et téléobjectif 12 Mpx,Ouverture ƒ/1,8",
-    "prix": 150
+    "detail": "oraimo Riff présente un design ergonomique innovant et le poids d'un seul écouteur n'est que de 3,5 g, créant une expérience exceptionnelle de confort haut de gamme",
+    "prix": 950
   },
   {
     "_id": "id005",
-    "name": "Apple IPhone 13 (128 Go) Purple ",
-    "description": "Connectivité",
+    "name": "Bestrunner Clé USB - OTG - 64GB",
+    "image": "image/cleUsb-removebg-preview.png",
+    "description": "Design compact-plus petit pour plus de confort",
     "text": "Caméra arrière: Double appareil photo grand angle ",
-    "detail": "Appareil photo (dorsal) : 12 Mégapixels ",
-    "prix": 150
+    "detail": "Nom du produit : clés USB 2.0,Couleur : noir, rouge, blanc, vert, bleu, gris, rose rouge, violet, jaune.Capacité : 64 Go, Matériau : métal + plastique ",
+    "prix": 250
   },
   {
     "_id": "id006",
-    "name": "Samsung Fourot Rabat GALAXY SAMSUNG A03 ",
+    "name": "Hp PC PORTABLE HP 14S -14  ",
+    "image": "image/ordinateur-removebg-preview.png",
     "description": "Connectivité",
-    "text": "Caméra arrière: Double appareil photo grand angle ",
-    "detail": "Ces fourreaux à rabat  Protègent complètement votre Téléphone contre les chocs et égratignures  de tous les jours,Il comprend une coque intérieure  pour une protection optimale au quotidien.",
+    "text": "on écran fin à micro-bord  ",
+    "detail": "Avec une autonomie prolongée et la technologie de recharge rapide HP Fast Charge, cet ordinateur portable vous permet de travailler, de regarder des vidéos et de rester connecté toute la journée[2].",
     "prix": 750
   },
   {
     "_id": "id007",
-    "name": "Samsung Galaxy A03  ",
-    "description": "Connectivité",
-    "text": "Caméra arrière: Double appareil photo grand angle ",
-    "detail": "Caméra arrière: Double appareil photo grand angle et téléobjectif 12 Mpx,Ouverture ƒ/1,8",
+    "name": "SMART TECHNOLOGY Réfrigérateur 2 ",
+    "image": "image/frigo-removebg-preview.png",
+    "description": "UN RÉFRIGÉRATEUR EFFICACE AU QUOTIDIEN ",
+    "text": "Conservez vos aliments dans les meilleures ",
+    "detail": "Côté congélateur, la fonction super congélation vous sera très pratique au retour des courses, par exemple.Le congélateur descend rapidement en température pour congeler toutes les denrées que vous venez d'apporter.",
     "prix": 550
   },
   {
     "_id": "id008",
-    "name": "Samsung Galaxy A03  ",
-    "description": "Connectivité",
-    "text": "Caméra arrière: Double appareil photo grand angle ",
-    "detail": "Caméra arrière: Double appareil photo grand angle et téléobjectif 12 Mpx,Ouverture ƒ/1,8",
+    "name": "SMART TECHNOLOGY Cuisinière  ",
+    "image": "image/cuisiniere-removebg-preview.png",
+    "description": " Gaz 4 Feux Avec Four STC-5050SK - 50 X",
+    "text": "Cuisiner devient facile avec la cuisinière  ",
+    "detail": "Les grands plats prennent du temps à préparer, mais les choses vont plus vite avec son four épuré et pratique.Elle offre en effet beaucoup de souplesse et s'avère être un bon compromis pour ceux qui apprécient les saveurs d’une cuisine plus élaborée à travers un contrôle parfait de la cuisson.",
     "prix": 650
   }
 ]

@@ -4,11 +4,12 @@ console.log(produitStorage);
 
 function affichePanier() {
   if (produitStorage === null) {
+    
   } else {
     for (let i = 0; i < produitStorage.length; i++) {
       let panier = `
             <div class="item2"  id="${produitStorage[i].id_produit}">
-        <img src="image/29376a7b6c574156a86f140e61fe85a4.jpeg" alt="" />
+        <img src="${produitStorage[i].image}" alt="" />
 
         <p>${produitStorage[i].name}</p>
         <p>${produitStorage[i].prix_produit}<button>suprimer</button> </p>

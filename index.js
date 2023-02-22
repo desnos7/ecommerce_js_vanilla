@@ -8,12 +8,12 @@ async function tablette() {
     let card = `
     <a href="./detail.html?id=${tableau[i]._id}"> <div class="card">
               <img
-              src="image/photo-1604399852419-f67ee7d5f2ef-removebg-preview.png"
+              src=" ${tableau[i].image}"
               alt=""
               />
               <div>
               <p>
-                 ${tableau[i].description}<br />
+                 ${tableau[i].name}<br/>
                  ${tableau[i].prix}
               </p>
               <button>view</button>
@@ -37,7 +37,7 @@ async function tablette() {
     let card = `<a href="detail.html"> 
     <div class="container4_item">
     <img
-      src="image/howard-bouchevereau-RSCirJ70NDM-unsplash-removebg-preview.png"
+      src="${elem.image}"
       alt=""
     />
     <div class="container4_item1">
