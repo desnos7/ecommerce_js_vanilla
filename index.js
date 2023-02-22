@@ -16,9 +16,9 @@ async function tablette() {
                  ${tableau[i].description}<br />
                  ${tableau[i].prix}
               </p>
-              <button>ADD CARD</button>
+              <button>view</button>
               </div>
-              <i class="fa-solid fa-heart"></i>
+              
               </div></a> `;
 
     let container2 = document.querySelector(".container2");
@@ -43,8 +43,8 @@ async function tablette() {
     <div class="container4_item1">
       <p>${elem.name}</p>
       <p>${elem.text}</p>
-      <button>ADD CART</button>
-      <i class="fa-solid fa-heart"></i>
+      <button>view</button>
+     
     </div>
   </div></a>`;
 
