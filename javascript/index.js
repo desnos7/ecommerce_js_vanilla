@@ -14,7 +14,7 @@ async function tablette() {
               <div>
               <p>
                  ${tableau[i].name}<br/>
-                 ${tableau[i].prix}
+                 ${tableau[i].prix}$
               </p>
               <button>view</button>
               </div>
