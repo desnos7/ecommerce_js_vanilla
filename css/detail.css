@@ -98,6 +98,9 @@ button {
   border-radius: 5%;
   margin-left: 35%;
 }
+button:hover{
+  background-color: orange;
+}
 
 .item2 {
   width: 100%;
@@ -165,3 +168,4 @@ footer {
 .icon {
   color: red;
 }
+
