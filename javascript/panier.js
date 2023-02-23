@@ -12,7 +12,7 @@ function affichePanier() {
         <img src="${produitStorage[i].image}" alt="" />
 
         <p>${produitStorage[i].name}</p>
-        <p>${produitStorage[i].prix_produit}<button>suprimer</button> </p>
+        <p>${produitStorage[i].prix_produit} </p>
         
 
         <i class="fa-solid fa-xmark"></i>
@@ -22,7 +22,7 @@ function affichePanier() {
     }
   }
 
-  let icon = document.querySelectorAll("button");
+  let icon = document.querySelectorAll(".fa-xmark");
 
   console.log(icon);
   for (k = 0; k < icon.length; k++) {

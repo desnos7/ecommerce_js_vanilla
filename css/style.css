@@ -353,6 +353,12 @@ footer {
     
     
 }
+.item-box1 {
+  width: 50%;
+  color: white;
+  font-weight: bold;
+  padding-left: 40px;
+}
   .container1_item1 {
     width: 320px;
     height: 500px;
